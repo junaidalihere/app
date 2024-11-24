@@ -1,0 +1,22 @@
+.heading {
+  padding: 90px 160px;
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(9, 49, 62, 1) 0%,
+    rgba(26, 91, 107, 0.8) 100%
+  );
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    padding: 90px 10px;
+  }
+  .head{
+    padding: 140px 10px;
+  }
+}
